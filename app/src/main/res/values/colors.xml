@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <!-- Color Original Date From Android Studio -->
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Original Color Date From Notes App -->
+    <color name="light_gray">#E6E6E6</color>
+    <color name="dark_gray">#4B4B4B</color>
+    <color name="red">#FF4646</color>
+    <color name="yellow">#FFC114</color>
+    <color name="green">#00C980</color>
+
+    <!-- New Color Date From Me -->
+    <color name="White_Primary">#F1EFE9</color>
+    <color name="Biru_Primary">#188AEC</color>
+    <color name="Light_Blue">#AABDF0</color>
+    <color name="Blue">#4978F9</color>
+    <color name="Biru_Tua">#00269F</color>
+
+    <color name="Extra_Light">#F6FAFE</color>
+    <color name="Extra_Light_Secondary">#EDF6FE</color>
+
+    <!-- Mystery Color Date From Me -->
+    <color name="Mystery1">#B084FF</color>
+    <color name="Mystery2">#592CA8</color>
+    <color name="Mystery3">#341668</color>
+
+</resources>

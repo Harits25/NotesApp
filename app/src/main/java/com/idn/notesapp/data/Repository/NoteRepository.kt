@@ -1,0 +1,31 @@
+package com.idn.notesapp.data.Repository
+
+import androidx.lifecycle.LiveData
+import com.idn.notesapp.data.model.NoteData
+import com.idn.notesapp.data.NoteDao
+
+class NoteRepository(private val noteDao: NoteDao) {
+    val getAllData : LiveData<List<NoteData>> = noteDao.getDataAll()
+    val shortByHighPriority : LiveData<List<NoteData>> = noteDao.setByHighPriority()
+    val sortByLowPriority : LiveData<List<NoteData>> = noteDao.sortByLowPriority()
+
+    fun insertData(noteData: NoteData){
+        noteDao.insertData(noteData)
+    }
+
+    fun updateData(noteData: NoteData){
+        noteDao.updateData(noteData)
+    }
+
+    fun deleteData(noteData: NoteData){
+        noteDao.deleteData(noteData)
+    }
+
+    fun deleteAllData() {
+        noteDao.deleteAllData()
+    }
+
+    fun searchData (searQuery : String) : LiveData<List<NoteData>>{
+        return noteDao.searchDatabase(searQuery)
+    }
+}
